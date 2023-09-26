@@ -1,22 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     color: #2c4d69;
+    overflow: hidden; /* Hide vertical scrollbar initially */
 }
 
 .container {
     text-align: center;
     padding: 20px;
-    border: 2px solid #2c4d69;
-    border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -46,12 +39,16 @@ button:hover {
 .blue-bg {
     background-color: lightblue;
     padding: 20px;
-    margin: 20px 0;
     border-radius: 15px;
 }
 
 .section {
     text-align: center;
+    min-height: 100vh; /* Make section height equal to viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Subsection Styles */
