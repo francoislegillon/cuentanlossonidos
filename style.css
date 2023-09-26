@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    color: #2c4d69;
+    font-family: "Colibri";
+}
+
+h1, h2 {
+    color: #52909e;
+}
+
+header {
+    background-color: #2c4d69;
+    color: yellow;
+}
+footer {
+    background-color: #2c4d69;
+    color: white;
+}
+/*
+#2c4d69
+#52909e*/
