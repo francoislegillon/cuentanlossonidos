@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     color: #2c4d69;
-    overflow: hidden; /* Hide vertical scrollbar initially */
 }
 
 .container {
@@ -20,21 +19,6 @@ p {
     color: #2c4d69;
 }
 
-button {
-    background-color: yellow;
-    color: #2c4d69;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #ffd700;
-}
-
 /* Section Styles */
 .blue-bg {
     background-color: lightblue;
@@ -44,20 +28,16 @@ button:hover {
 
 .section {
     text-align: center;
-    min-height: 100vh; /* Make section height equal to viewport height */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    overflow: hidden; /* Hide content overflow initially */
-    transition: min-height 0.5s ease; /* Smooth transition for height change */
 }
 
 /* Subsection Styles */
 .rounded-box {
     background-color: white;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0; /* You can adjust this margin if needed */
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
