@@ -49,6 +49,8 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden; /* Hide content overflow initially */
+    transition: min-height 0.5s ease; /* Smooth transition for height change */
 }
 
 /* Subsection Styles */
