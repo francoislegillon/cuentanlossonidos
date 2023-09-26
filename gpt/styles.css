@@ -3,12 +3,13 @@ body {
     margin: 0;
     padding: 0;
     color: #2c4d69;
+    background-color: lightblue; /* Set the background color of the entire page */
 }
 
 .container {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: transparent; /* Make the container background transparent */
 }
 
 h1 {
@@ -17,6 +18,10 @@ h1 {
 
 p {
     color: #2c4d69;
+}
+
+.yellowtext {
+    color: yellow;
 }
 
 /* Section Styles */
@@ -36,7 +41,7 @@ p {
 
 /* Subsection Styles */
 .rounded-box {
-    background-color: white;
+    background-color: white; /* Set the background color of the subsections to white */
     padding: 10px;
     margin: 10px 0; /* You can adjust this margin if needed */
     border-radius: 15px;
