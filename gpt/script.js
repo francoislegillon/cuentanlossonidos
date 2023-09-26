@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function redirectToMusicPage() {
         // You can replace this with the actual URL of your music page.
-        window.location.href = 'index2.html';
+        window.location.href = './index.html';
     }
 });
