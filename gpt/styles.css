@@ -21,7 +21,7 @@ p {
 
 /* Section Styles */
 .blue-bg {
-    background-color: lightblue;
+    background-color: #52909e;
     padding: 20px;
     border-radius: 15px;
 }
@@ -31,6 +31,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 0; /* You can adjust this margin if needed */
 }
 
 /* Subsection Styles */
