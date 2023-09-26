@@ -1,0 +1,11 @@
+.blue-bg {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px 0;
+}
+.section {
+    text-align: center;
+}
+.subsection {
+    text-align: left;
+}
