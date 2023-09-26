@@ -1,2 +1,2 @@
 # cuentanlossonidos
-small landingpage for curentan
+small landingpage for cuentan
