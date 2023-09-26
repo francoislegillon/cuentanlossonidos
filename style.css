@@ -8,7 +8,8 @@ h1, h2 {
     color: #52909e;
 }
 h2 {
-    margin-left: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-size: 10px;
 }
 header {
@@ -21,13 +22,13 @@ footer {
 }
 
 .mybox {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: azure;
 }
 .mytitlebox {
-    margin-left: 40px;
-    margin-right: 80px;
+    margin-left: 5%;
+    margin-right: 20%;
 }
 /*
 #2c4d69
